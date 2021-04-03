@@ -1,91 +1,167 @@
-<!DOCTYPE HTML>
-
+<!DOCTYPE html>
 <html>
-	<head>
-		<title>Zula Manualidades</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <meta name="description" content="cart shopping">
+        <meta name="author" content="Pristou@dev">
+        <title>**Shopping Cart**</title>
 
-		<!-- Wrapper -->
-			<div id="wrapper">
+        <!-- Bootstrap -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">        
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/product.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/footer.css">
+        
 
-				<!-- Header -->
-					<header id="header" class="alt">
-						<span class="logo"><img src="images/logo_web.png" alt="" /></span>
-						<h1>ZULA</h1>
-						<h4>Tienda de Juguetes didácticos</h4>
-						<h4>💗  Hecho 100% a mano y con amor  💗</h4>
-								
-						<ul class="icons">
-								<li><a href="https://facebook.com/zulamanualidades" class="icon brands fa-facebook-f alt"><span class="label">Facebook</span></a></li>
-								<li><a href="https://www.instagram.com/zulamanualidades/" class="icon brands fa-instagram alt"><span class="label">Instagram</span></a></li>
-							</ul>
-						
-					</header>
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    <body>
 
-				<!-- Main -->
-					<div id="main">
-					
-					
-					<section id="content" class="main special">
-								
-								<p>Tenes dudas sobre nuestros productos....</p>
-								<ul class="actions special">
-										<li><a href="https://wa.me/541156697764" class="button primary icon brands solid fa-whatsapp" style="background-color:#00bb2d" > Escribime por whatsapp</a></li>	
-								</ul>							
-								<p>Visita Nuestra Tienda Online</p>
-								<ul class="actions special">
-									<li><a href="https://pency.app/zula" class="button primary icon  solid fa-shopping-cart" > Visitar</a></li>	
-	
-								</ul>
-								
-								<p>Queres vender nuestros productos?? </br> Envianos tus datos y te envianos los precios mayorista</p>
-								<ul class="actions special">
-									<li><a href="https://forms.gle/oQA4tpZFyEd4r7GQ6" class="button primary icon  solid fa-envelope-open" > Envianos tus datos</a></li>	
-	
-								</ul>
-								
-								<!--h2>Tempus veroeros</h2>
-								<p>Cep risus aliquam gravida cep ut lacus amet. Adipiscing faucibus nunc placerat. Tempus adipiscing turpis non blandit accumsan eget lacinia nunc integer interdum amet aliquam ut orci non col ut ut praesent. Semper amet interdum mi. Phasellus enim laoreet ac ac commodo faucibus faucibus. Curae ante vestibulum ante. Blandit. Ante accumsan nisi eu placerat gravida placerat adipiscing in risus fusce vitae ac mi accumsan nunc in accumsan tempor blandit aliquet aliquet lobortis. Ultricies blandit lobortis praesent turpis. Adipiscing accumsan adipiscing adipiscing ac lacinia cep. Orci blandit a iaculis adipiscing ac. Vivamus ornare laoreet odio vis praesent nunc lorem mi. Erat. Tempus sem faucibus ac id. Vis in blandit. Nascetur ultricies blandit ac. Arcu aliquam. Accumsan mi eget adipiscing nulla. Non vestibulum ac interdum condimentum semper commodo massa arcu.</p-->
-							</section>
-					
-					
-					
-					
-					
-					
 
-					</div>
+        <div>
+            <div class="jumbotron text-center jumbotron-billboard">
+                <div class="img"></div>
+                  <div class="container">
+                      <div class="row">
+                          <div class="col-lg-12">
+                            <img src="img/Logo_web.png" class="img-fluid" alt="a" />
+                            
+                              <h3>Tienda de juguetes Didácticos</h3>
+                              
+                          </div>
+                      </div>
+                  </div>
+              </div>
 
-				<!-- Footer -->
-					<footer id="footer">
-						<section>
-							
-							<dl class="alt">
-								<dt>Dirección</dt>
-								<dd>Avellaneda &bull; Provincia de Buenos Airess</dd>
-								
-								<dt>Email</dt>
-								<dd><a href="#">zula.manualidades@gmail.com</a></dd>
-							</dl>
-						</section>	
-						<p class="copyright">&copy; Design: <a>Zula Manualidades</a>.</p>
-					</footer>
+        </div>
 
-			</div>
+        <div class="container" style="padding-top:10px;padding-bottom:70px;">
+            <div >
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="input-group">
+                        <label class="sr-only" for="">label</label>
+                        <input type="text" class="form-control" id="search" placeholder="Buscar...">
+                      <span class="input-group-btn">
+                        <a id="reset" href="#" class="btn btn-primary reset" style="background-color:blueviolet; border: blueviolet;">Borrar</a>
+                      </span>
+                    </div>
+                  </div>
+            </div>
+            <br><br>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+ <!--all products-->
+ <div id="products" class="row mas">
+    <!--div class="col-sm-3 filter">
+        <div class="col-item">
+            <div class="photo">                            
+                <img src="https://live.staticflickr.com/65535/51004296660_51d775864e_k.jpg" class="img-responsive" alt="a" />
+            </div>
+            <div class="info">
+                <div class="row">
+                    <div class="price col-md-6">
+                        <h4 class="name_product"><span>Simple Product</span></h4>
+                        <h5 class="price-text-color price-u">199.99</h5>
+                    </div>
+                </div>
+                <div class="separator clear-left">
+                    <p class="btn-add">
+                        <i class="fa fa-shopping-cart"></i><a href="#" class="hidden-sm add" id-data="1" >Agregar <span id="nbr-check" class="badge">0</span></a>
+                    </p>
+                    <p class="btn-details">
+                        <i class="fa fa-list"></i><a href="#" class="hidden-sm detail" data-toggle="modal" data-target="#basicModal">Descripcion</a>
+                    </p>
+                </div>
+                <div class="clearfix">
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="basicModal" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                  <h4 class="modal-title" id="myModalLabel">Basic Modal</h4>
+                </div>
+                <div class="modal-body">
+                  <p>...</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary" >Save changes</button>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+    </div-->
+    
+</div>
+       
+        </div><!-- /.container -->
+        
+        <footer class="footer navbar-fixed-bottom">
+            <div class="container">
+                 <!--cart shopping-->
+                 <button type="button" class="btn btn-primary btn-block" data-toggle="collapse" data-target="#demo" style="background-color: blueviolet;"> 
+                    <i class="fa fa-shopping-cart" aria-hidden="true"></i> Tu Pedido <span id="cant_item" class="badge"> $ 0 </span> 
+                    </button>
 
-	</body>
+                 <div id="demo" class="collapse">
+                     <div class="panel panel-info" style="border-color: blueviolet;"> 
+                         <div class="panel-heading" style="background-color: #fbcaca; border-color: blueviolet;">
+                         </div>
+                         <div class="panel-body">
+                               <div class="table-responsive">
+                                   <table id ="pedido" class="table table-hover">
+                                       <thead>
+                                           <tr>
+                                               <th>Producto</th>
+                                               <th>Cantidad</th>
+                                               <th>Total</th>
+                                           </tr>
+                                       </thead>
+                                       <tbody>
+                                       </tbody>
+                                   </table>
+                               </div>
+                         </div>
+                       <div class="panel-footer">
+                           <div class="text-right">
+                               <button class="btn btn-default disabled hidden" type="button">
+                                      Total estimado: $ <span id="price" class="badge">0.00</span>
+                               </button>
+                               <button class="btn btn-success btn-block btn-lg" onclick="sendOrder()" ><i id="enviar" class="fa fa-whatsapp" aria-hidden="true"></i> Completar pedido en WhatsApp</button>
+                           </div>
+                       </div>
+                   </div>
+ 
+ 
+                 </div>
+             </div>
+               <!--end cart shopping-->
+            </div>
+          </footer>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="js/jquery.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/bootstrap-notify.min.js"></script>
+        <script src="js/lodash.min.js"></script>
+        <script src="js/bootbox.min.js"></script>
+        <script src="js/masonry.min.js"></script>
+        <script src="js/app.js"></script>
+
+
+    </body>
 </html>
