@@ -4,13 +4,12 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
         <meta name="description" content="cart shopping">
-        <meta name="author" content="Pristou@dev">
-        <title>**Shopping Cart**</title>
+        <meta name="author" content="Zula Manualidades">
+        <title>Zula Manualidades</title>
 
         <!-- Bootstrap -->
-        <link href="css/bootstrap.min.css" rel="stylesheet">        
+        <link href="css/bootstrap.min.css" rel="stylesheet">    
         <link rel="stylesheet" href="css/font-awesome.min.css">
         <link rel="stylesheet" href="css/product.css">
         <link rel="stylesheet" href="css/style.css">
@@ -24,9 +23,36 @@
           <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
         <![endif]-->
     </head>
-    <body>
+    <body Style="padding-top: 51px;">
 
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container-fluid">
+                       
+                <!--button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button-->
 
+                <div class="input-group" style="padding-top:10px;">
+                    <div class="input-group-btn">
+                      <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Categorías <span class="caret"></span></button>
+                      <ul class="dropdown-menu">
+                        <li><a href="#didacticos">Juguetes Didácticos</a></li>
+                      <li><a href="#comiditas">Comiditas de Tela</a></li>
+                      <li><a href="#muñecos">Munec@s</a></li>
+                      </ul>
+                    </div><!-- /btn-group -->
+                    <label class="sr-only" for="">label</label>
+                    <input type="text" class="form-control" id="search" placeholder="Buscar...">
+                    <span class="input-group-btn">
+                        <a id="reset" href="#" class="btn btn-primary reset">Borrar</a>
+                      </span>
+                  </div><!-- /input-group -->
+             
+            </div><!-- /.container-fluid -->
+        </nav>
         <div>
             <div class="jumbotron text-center jumbotron-billboard">
                 <div class="img"></div>
@@ -34,92 +60,58 @@
                       <div class="row">
                           <div class="col-lg-12">
                             <img src="img/Logo_web.png" class="img-fluid" alt="a" />
-                            
                               <h3>Tienda de juguetes Didácticos</h3>
+                              <a style="color:blueviolet;" href="https://www.google.com/maps/place/Avellaneda,%20Provincia%20de%20Buenos%20Aires/@-34.6610756,-58.3669739" ><i class="fa fa-map-marker"></i>  Avellaneda, Buenos Aires</a>
                               
                           </div>
                       </div>
                   </div>
               </div>
-
         </div>
 
-        <div class="container" style="padding-top:10px;padding-bottom:70px;">
-            <div >
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="input-group">
-                        <label class="sr-only" for="">label</label>
-                        <input type="text" class="form-control" id="search" placeholder="Buscar...">
-                      <span class="input-group-btn">
-                        <a id="reset" href="#" class="btn btn-primary reset" style="background-color:blueviolet; border: blueviolet;">Borrar</a>
-                      </span>
-                    </div>
-                  </div>
-            </div>
-            <br><br>
+   
+<div class="container" style="padding-bottom:1px;">
 
- <!--all products-->
- <div id="products" class="row mas">
-    <!--div class="col-sm-3 filter">
-        <div class="col-item">
-            <div class="photo">                            
-                <img src="https://live.staticflickr.com/65535/51004296660_51d775864e_k.jpg" class="img-responsive" alt="a" />
-            </div>
-            <div class="info">
-                <div class="row">
-                    <div class="price col-md-6">
-                        <h4 class="name_product"><span>Simple Product</span></h4>
-                        <h5 class="price-text-color price-u">199.99</h5>
-                    </div>
+    <!--div class="row">
+        <div class="col-xs-6 col-md-3">
+          <div class="thumbnail">
+            <img src="https://live.staticflickr.com/65535/51004296660_51d775864e_k.jpg" class="img-responsive" alt="a" >
+            <button class="btn btn-link hidden-sm detail btn-block" data-toggle="modal" data-target="#basicModal"><i class="fa fa-list"></i> Ver Detalle</button>
+            <div>
+                <h4 class="name_product titleProduct">Simple Product</h4>
+                <div>
+                    <div class="v"><h5 class="price-text-color">$ </h5></div>
+                    <div class="vk"><h5 class="price-text-color price-u">199.99</h5></div>
                 </div>
-                <div class="separator clear-left">
-                    <p class="btn-add">
-                        <i class="fa fa-shopping-cart"></i><a href="#" class="hidden-sm add" id-data="1" >Agregar <span id="nbr-check" class="badge">0</span></a>
-                    </p>
-                    <p class="btn-details">
-                        <i class="fa fa-list"></i><a href="#" class="hidden-sm detail" data-toggle="modal" data-target="#basicModal">Descripcion</a>
-                    </p>
-                </div>
-                <div class="clearfix">
-                </div>
-            </div>
-        </div>
-        <div class="modal fade" id="basicModal" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
-            <div class="modal-dialog">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                  <h4 class="modal-title" id="myModalLabel">Basic Modal</h4>
-                </div>
-                <div class="modal-body">
-                  <p>...</p>
-                </div>
-                <div class="modal-footer">
-                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                  <button type="button" class="btn btn-primary" >Save changes</button>
-                  
-                </div>
-              </div>
+                <button class="btn btn-primary hidden-sm add btn-block" id-data="1" data-category="Muñecos"><i class="fa fa-shopping-cart"></i> Agregar <span id="nbr-check" class="badge">0</span></button>
+              
             </div>
           </div>
+          <div class="clearfix"></div>
+        </div>
     </div-->
-    
-</div>
-       
-        </div><!-- /.container -->
+
+<div id="productsDidacticos" class="row"></div>
+</div><!-- /.container productsDidacticos -->
+
+<div class="container" style="padding-bottom:10px;">
+    <div id="productsComiditas" class="row"></div>
+</div><!-- /.container productsComiditas -->
+
+
+<div class="container" style="padding-bottom:70px;">
+    <div id="productsMuñecos" class="row no-gutters"></div>
+</div><!-- /.container productsMuñecos -->
         
-        <footer class="footer navbar-fixed-bottom">
+        <footer class="footer navbar-default navbar-fixed-bottom">
             <div class="container">
                  <!--cart shopping-->
-                 <button type="button" class="btn btn-primary btn-block" data-toggle="collapse" data-target="#demo" style="background-color: blueviolet;"> 
+                 <button type="button" class="btn btn-primary btn-block" data-toggle="collapse" data-target="#demo"> 
                     <i class="fa fa-shopping-cart" aria-hidden="true"></i> Tu Pedido <span id="cant_item" class="badge"> $ 0 </span> 
                     </button>
 
                  <div id="demo" class="collapse">
                      <div class="panel panel-info" style="border-color: blueviolet;"> 
-                         <div class="panel-heading" style="background-color: #fbcaca; border-color: blueviolet;">
-                         </div>
                          <div class="panel-body">
                                <div class="table-responsive">
                                    <table id ="pedido" class="table table-hover">
@@ -148,9 +140,8 @@
  
                  </div>
              </div>
-               <!--end cart shopping-->
-            </div>
-          </footer>
+            
+        </footer>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
         <script src="js/jquery.min.js"></script>

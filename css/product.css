@@ -1,6 +1,75 @@
+.titleProduct{
+    Text-align:center;
+    font-weight: bold;
+}
+
+.v {
+    width:40%;
+    Text-align:right;
+    float:left;
+}
+.vk
+    {
+    Text-align:left;
+    Width:60%;
+    float:right;
+    
+    }
+
+.navbar {
+  /*  -webkit-box-shadow: 0 8px 6px -6px #999;
+    -moz-box-shadow: 0 8px 6px -6px #999;
+    box-shadow: 0 8px 6px -6px #999;*/
+    box-shadow: 0px 8px 8px -6px rgba(0,0,0,.5);
+    
+}
+
+.footer {
+    -webkit-box-shadow: 0px -4px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px -4px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px -4px 5px -3px rgba(0,0,0,0.75);
+
+    
+}
+
+
+
+.btn-info, .btn-info:hover, .btn-info:active, .btn-info:visited {
+    background-color: blueviolet !important;
+}
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: blueviolet !important;
+}
+
+.btn-secondary, .btn-secondary:hover, .btn-secondary:active, .btn-secondary:visited {
+    background-color:#fbcaca !important;
+	border-radius: 50px;
+	background-color: white;
+
+
+	
+	text-decoration: none;
+	font-weight: bold;
+	display: inline-block;
+	font-size: 16px;
+	cursor: pointer;
+	transition: all 0.3s;
+}
+
+.btn-circle {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    padding: 6px 0;
+    font-size: 12px;
+    line-height: 1.428571429;
+    border-radius: 15px;
+  }
+
 .jumbotron-billboard .img {
     margin-bottom: 0px;
-    opacity: 0.2;
+    opacity: 0.3;
     color: #fff;
     background: #000 url("../img/portada_pency.jpg") top center no-repeat;
     width: 100%;
@@ -11,6 +80,7 @@
     top:0;
     left:0;
     z-index:1;    
+    background-position:center;
 
 }
 .jumbotron h2 {margin-top:0;}
@@ -45,16 +115,18 @@ pre {
     border-radius: 5px;
     background: #FFF;
     margin-bottom: 10px;
+    width: 100%;
+    
 }
 .col-item .photo img
 {
-    margin: 0 auto;
+    
     width: 100%;
 }
 
 .col-item .info
 {
-    padding: 10px;
+    padding: 5px;
     border-radius: 0 0 5px 5px;
     margin-top: 1px;
 }
@@ -87,6 +159,7 @@ pre {
 .price-text-color
 {
     color:green;
+    font-weight: bold;
 
 }
 
@@ -143,11 +216,11 @@ pre {
 {
     width: 50%;
     float: left;
-    padding-left: 10px;
+    /*padding-left: 10px;*/
 }
 .controls
 {
-    margin-top: 20px;
+    margin-top: 200px;
 }
 [data-slide="prev"]
 {
