@@ -209,14 +209,6 @@ function loadProductJuguetesDidacticos(){
             "category": "Juguetes Didacticos"
         },
         {
-            "id": "ZULA_005",
-            "title": "Kit Medico",
-            "description": "✔ 3 Curitas\r\n✔ 1 Tensiómetro\r\n✔ 1 Estetoscopio\r\n✔ 1 Termómetro\r\n✔ 1 Blister de pastillas\r\n\r\nLas curitas y el tensiómetro poseen abrojo, para que los peques puedan usarlas igual que las reales.\r\n\r\nLos colores pueden variar según la disponibilidad de materiales en el momento de la confección.",
-            "price": "810.00",
-            "image_link": "https://live.staticflickr.com/65535/51073477621_0167861b61_k.jpg",
-            "category": "Juguetes Didacticos"
-        },
-        {
             "id": "ZULA_006",
             "title": "Pelota Gajos Montessori",
             "description": "Una pelota para bebés que podrán manipular desde los 4 meses y con la que podrán jugar durante diferentes etapas del juego hasta los 3 años.\r\n\r\nDiseño ergonómico y bonito, muy fácil de agarrar gracias a los pétalos separados de cada color, lo que ayuda al estimulo y desarrollo de la visión del bebe.\r\n\r\nLa pelota ayuda a estimular la fuerza y coordinación en las manos del bebe, su desarrollo motriz, reconocer distancia y velocidad e interactuar con el espacio/tiempo.\r\n\r\nConfeccionado 100% a mano, en tela de algodón. Relleno de vellon siliconado.\r\nMedidas aprox.: 45 cm de circunferencia.",
