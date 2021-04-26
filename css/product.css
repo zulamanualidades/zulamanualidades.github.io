@@ -3,18 +3,55 @@
     font-weight: bold;
 }
 
+.price-text-color
+{
+    color:green;
+    font-weight: bold;
+    font-size: 15px;
+    Text-align:center;
+
+}
+
 .v {
-    width:40%;
-    Text-align:right;
+    width:75%;
+    Text-align:left;
     float:left;
 }
+
+
 .vk
     {
     Text-align:left;
-    Width:60%;
+    Width:25%;
     float:right;
     
     }
+
+    .izq {
+        width:10%;
+        Text-align:left;
+        float:left;
+    }
+    
+    
+    .der
+        {
+        Text-align:left;
+        Width:90%;
+        float:right;
+        
+        }   
+
+    
+.tachado{
+
+    text-decoration:line-through;
+    color:grey;
+    Text-align:center;
+    display:block;
+    
+}
+
 
 .navbar {
   /*  -webkit-box-shadow: 0 8px 6px -6px #999;
@@ -107,11 +144,12 @@ pre {
     white-space: pre-wrap;
     word-break: keep-all;
     background: #FFF;
+    margin-top: 10px;
   }
 
 .col-item
 {
-    border: 1px solid #E1E1E1;
+    
     border-radius: 5px;
     background: #FFF;
     margin-bottom: 10px;
@@ -156,12 +194,7 @@ pre {
     font-weight: bold;
 }
 
-.price-text-color
-{
-    color:green;
-    font-weight: bold;
 
-}
 
 .col-item .info .rating
 {
