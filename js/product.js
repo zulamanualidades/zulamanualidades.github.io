@@ -103,7 +103,7 @@ var arrComiditas = [
         "id": "ZULA_027",
         "title": "Kit Verduleria",
         "description": "✔ 1 Manzana 🍎\r\n✔ 1 Banana 🍌\r\n✔ 1 Calabaza\r\n✔ 1 Pera 🍐\r\n✔ 1 Zanahoria 🥕\r\n✔ 1 Lechuga\r\n✔ 2 Frutillas 🍓\r\n✔ 1 Naranja 🍊\r\n✔ 1 Sandia 🍉\r\n✔ 1 Papa 🥔\r\n✔ 1 Tomate 🍅\r\n✔ 1 Palta 🥑\r\n\r\nEspecificaciones:\r\n✔ Entregado en bolsa de tela\r\n✔ No tóxicos.\r\n✔ No son mordillos.\r\n✔ Rellena de vellón siliconado.\r\n✔ Elaborada con tela polar lavable.\r\n✔ 100% confeccionadas a mano.\r\n\r\nLos colores pueden variar según la disponibilidad de materiales en el momento de la confección.",
-        "price": "1880.00",
+        "price": "1735.00",
         "image_link": "https://live.staticflickr.com/65535/51072778113_7c73e8a5cb_z.jpg",
         "category": "Comiditas",
         "discount": "0",
