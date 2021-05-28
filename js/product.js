@@ -20,6 +20,16 @@ var arrComiditas = [
         "price_tachado": "0"
     },
     {
+            "id": "ZULA_036",
+            "title": "Kit Verduras N°2",
+            "description": "✔ 1 Calabaza\r\n✔ 1 Zanahoria 🥕\r\n✔1 Papa\r\n✔1 Chaucha\r\n✔1 Puerro\r\n✔1 Verdeo\r\n\r\nEspecificaciones:\r\n✔ Entregado en bolsa de tela\r\n✔ No tóxicos.\r\n✔ No son mordillos.\r\n✔ Rellena de vellón siliconado.\r\n✔ Elaborada con tela polar lavable.\r\n✔ 100% confeccionadas a mano.\r\n\r\nLos colores pueden variar según la disponibilidad de materiales en el momento de la confección.",
+            "price": "900.00",
+            "image_link": "https://live.staticflickr.com/65535/51209824100_7573f0fd21_k.jpg",
+            "category": "Comiditas",
+            "discount": "0",
+            "price_tachado": "0"
+    },
+    {
         "id": "ZULA_019",
         "title": "Kit Frutas x3",
         "description": "✔ 1 Manzana 🍎\r\n✔ 1 Banana 🍌\r\n✔ 1 Pera 🍐\r\n\r\nEspecificaciones:\r\n✔ Entregado en bolsa de tela\r\n✔ No tóxicos.\r\n✔ No son mordillos.\r\n✔ Rellena de vellón siliconado.\r\n✔ Elaborada con tela polar lavable.\r\n✔ 100% confeccionadas a mano.\r\n✔ No vienen con el cajón de frutas.\r\n\r\nLos colores pueden variar según la disponibilidad de materiales en el momento de la confección.",
