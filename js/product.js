@@ -64,7 +64,7 @@ var arrComiditas = [
         "title": "Kit Hamburguesa",
         "description": "✔ 2 Panes 🍔\r\n✔ 1 Medallón de Carne\r\n✔ 1 Queso Cheddar 🧀\r\n✔ 1 Jamón\r\n✔ 1 Huevo Fito\r\n✔ 1 Rodaje de Tomate 🍅\r\n✔ 1 Hoja de Lechuga\r\n✔ 1 manzana 🍎\r\n\r\nEspecificaciones:\r\n✔ Entregado con bolsa de tela.\r\n✔ No tóxicos\r\n✔ No son mordillos.\r\n✔ Rellena de vellón siliconado.\r\n✔ 100% confeccionadas a mano.\r\n✔ El tamaño es como el de una hamburguesa de verdad.\r\n\r\nLos colores pueden variar según la disponibilidad de materiales en el momento de la confección.",
         "price": "820.00",
-        "image_link": "https://live.staticflickr.com/65535/51004296235_536d3efeec_z.jpg",
+        "image_link": "https://live.staticflickr.com/65535/51209779444_38f7f88d22_k.jpg",
         "category": "Comiditas",
         "discount": "0",
         "price_tachado": "0"
@@ -84,7 +84,7 @@ var arrComiditas = [
         "title": "Kit Pasta",
         "description": "✔ 10 Ravioles.\r\n✔ 10 Fideos Moño.\r\n✔ 10 Fideos Mostachol.\r\n✔ 2 Salas Reversibles (salsa de tomate, salsa de tomate con queso, salsa blanca, salsa blanca con queso)\r\n✔ 2 Hojas de Laurel\r\n\r\n\r\nEspecificaciones:\r\n\r\n✔ Entregado con bolsa de tela.\r\n✔ No tóxicos.\r\n✔ No son mordillos.\r\n✔ Rellena de vellón siliconado.\r\n✔ 100% confeccionadas a mano.\r\n\r\n\r\nLos colores pueden variar según la disponibilidad de materiales en el momento de la confección",
         "price": "720.00",
-        "image_link": "https://live.staticflickr.com/65535/51073578187_9f05635e8c_z.jpg",
+        "image_link": "https://live.staticflickr.com/65535/51210084575_f0e6a18086_k.jpg",
         "category": "Comiditas",
         "discount": "0",
         "price_tachado": "0"
