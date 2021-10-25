@@ -1,4 +1,4 @@
-var arrComiditas": [
+var arrComiditas: [
         {
             "id": "ZULA_004",
             "title": "Kit Malvaviscos",
