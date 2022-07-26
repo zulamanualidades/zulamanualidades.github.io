@@ -1,4 +1,4 @@
-var arrComiditas: [
+var arrComiditas= [
         {
             "id": "ZULA_004",
             "title": "Kit Malvaviscos",
@@ -172,7 +172,7 @@ var arrComiditas: [
     ]
 
 
-var arrDidacticos: [
+var arrDidacticos= [
         {
             "id": "ZULA_001",
             "title": "Fogata",
@@ -265,7 +265,7 @@ var arrDidacticos: [
         }
     ]
 
-var arrMuñecos: [
+var arrMuñecos= [
         {
             "id": "ZULA_007",
             "title": "Muñeca con Bolso",
